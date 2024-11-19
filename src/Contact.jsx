@@ -32,7 +32,6 @@ function Contact() {
 
     return (
         <div className="flex flex-col items-center p-6 bg-gray-100 rounded-lg shadow-lg max-w-lg mx-auto mt-10">
-            <h1 className="text-3xl font-bold text-gray-800 mb-6">Contact Us</h1>
             <form onSubmit={onSubmit} className="w-full">
                 <div className="mb-4">
                     <label htmlFor="name" className="block text-gray-700 font-medium mb-2">Name</label>

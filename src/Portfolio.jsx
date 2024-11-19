@@ -35,6 +35,8 @@ const SkillsCard = () => (
     <Card title="Skills">
         <p><strong>Programming Languages:</strong> JavaScript</p>
         <p><strong>Technologies:</strong> HTML, CSS, React.js, Tailwind CSS</p>
+        <p><strong>Extra Skills:</strong> Power BI</p>
+
     </Card>
 );
 

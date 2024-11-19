@@ -8,6 +8,8 @@ import Contact from './Contact';
 import Privacy from './Policy';
 import Terms from './Terms';
 import Projects from './Projects';
+import Login from './Login';
+import Signup from './Signup';
 
 
 function App(){
@@ -23,6 +25,8 @@ function App(){
         <Route path='/about' element={<About/>}/>
         <Route path='/terms' element={<Terms/>}/>
         <Route path='/my-projects' element={<Projects/>}/>
+        <Route path='/Login' element={<Login/>}/>
+        <Route path='/Signup' element={<Signup/>}/>
         
       </Routes>
       <Footer/>

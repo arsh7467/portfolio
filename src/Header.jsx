@@ -16,8 +16,8 @@ function Header() {
             
             {/* Buttons */}
             <div className="flex space-x-4">
-                <button className="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium hover:bg-gray-100">Sign up</button>
-                <button className="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium hover:bg-gray-100">Login</button>
+                <a href="/Signup"><button  className="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium hover:bg-gray-100">Sign up</button></a>
+               <a href="/Login"> <button  className="bg-white text-blue-600 px-4 py-2 rounded-lg font-medium hover:bg-gray-100">Login</button></a>
             </div>
         </div>
     );
